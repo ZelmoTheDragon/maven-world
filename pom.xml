@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project
+        xmlns="http://maven.apache.org/POM/4.0.0"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.github.maven-world</groupId>
+    <artifactId>maven-world-parent</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
+    <packaging>pom</packaging>
+
+    <name>maven-world-parent</name>
+    <description>Parent project for maven-world</description>
+    <inceptionYear>2023</inceptionYear>
+    <url>https://github.com/ZelmoTheDragon/maven-world</url>
+    <organization>
+        <name>GitHub</name>
+        <url>https://github.com</url>
+    </organization>
+    <licenses>
+        <license>
+            <name>MIT</name>
+            <url>https://opensource.org/licenses/MIT</url>
+            <comments>The MIT License</comments>
+        </license>
+    </licenses>
+
+    <modules>
+
+    </modules>
+
+    <scm>
+        <connection>scm:git:https://github.com/ZelmoTheDragon/maven-world.git</connection>
+        <developerConnection>scm:git:https://github.com/ZelmoTheDragon/maven-world.git</developerConnection>
+        <tag>HEAD</tag>
+        <url>https://github.com/ZelmoTheDragon/maven-world</url>
+    </scm>
+    <issueManagement>
+        <system>Github</system>
+        <url>https://github.com/ZelmoTheDragon/maven-world/issues</url>
+    </issueManagement>
+
+    <developers>
+        <developer>
+            <id>ZelmoTheDragon</id>
+            <name>MOSELLE Maxime</name>
+            <email>maximemoselle@gmail.com</email>
+            <organization>GitHub</organization>
+            <organizationUrl>https://github.com</organizationUrl>
+            <timezone>Europe/Paris</timezone>
+            <url>https://github.com/ZelmoTheDragon</url>
+            <roles>
+                <role>developer</role>
+            </roles>
+        </developer>
+    </developers>
+
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+
+        <!-- Version des dépendances -->
+        <version.java>17</version.java>
+
+        <!-- Configuration -->
+        <maven.compiler.source>${version.java}</maven.compiler.source>
+        <maven.compiler.target>${version.java}</maven.compiler.target>
+    </properties>
+
+    <dependencyManagement>
+
+    </dependencyManagement>
+
+    <build>
+
+    </build>
+
+</project>
+
