@@ -48,8 +48,11 @@ class GreetingServiceTest {
         var greetingMessage1 = new GreetingMessage("Hello world");
         var added1 = underTest.addGreetingMessage(greetingMessage1);
 
+        var count = repository.size();
+
         Assertions.assertTrue(added0);
         Assertions.assertFalse(added1);
+        Assertions.assertEquals(1, count);
     }
 
     @Test
